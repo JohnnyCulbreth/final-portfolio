@@ -6,9 +6,9 @@ import CSS from '../images/css3.svg';
 import JavaScript from '../images/javascript.svg';
 import React from '../images/react.svg';
 import Bootstrap from '../images/bootstrap.svg';
-import Scss from '../images/sass.svg';
 import Git from '../images/git.svg';
-import Responsive from '../images/responsive.svg';
+import Node from '../images/node.png';
+import Astro from '../images/astro.png';
 
 // --------------------------------------- Projects
 
@@ -35,10 +35,10 @@ export const ProjectList = [
     img: Integro,
     title: 'Integro Healthcare',
     description:
-      'A simple, responsive website for Integro Health, a Physician Recruitment Firm',
-    tech_stack: 'Javascript, Bootstrap, HTML, CSS',
-    github_url: 'https://github.com/JohnnyCulbreth/integro-healthcare',
-    demo_url: 'https://johnnyculbreth.github.io/integro-healthcare/',
+      'A simple, responsive website using the AstroJS framework for Integro Health, a Physician Recruitment Firm',
+    tech_stack: 'AstroJS, Bootstrap, HTML, CSS',
+    github_url: 'https://github.com/JohnnyCulbreth/astro-js-integro',
+    demo_url: 'https://integrohealth.org/',
   },
 ];
 
@@ -62,19 +62,19 @@ export const stackList = [
     name: 'ReactJS',
   },
   {
-    img: Bootstrap,
-    name: 'Bootstrap',
+    img: Node,
+    name: 'NodeJS',
   },
   {
-    img: Scss,
-    name: 'Scss',
+    img: Bootstrap,
+    name: 'Bootstrap',
   },
   {
     img: Git,
     name: 'Git',
   },
   {
-    img: Responsive,
-    name: 'Responsive',
+    img: Astro,
+    name: 'AstroJS',
   },
 ];

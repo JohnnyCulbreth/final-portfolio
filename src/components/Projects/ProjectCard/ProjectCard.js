@@ -29,7 +29,7 @@ function ProjectCard() {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Github
+                GitHub
               </a>
               <a
                 className='btn PrimaryBtn'

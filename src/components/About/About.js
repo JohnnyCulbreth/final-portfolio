@@ -31,7 +31,7 @@ function About() {
             engaging digital experiences.
           </div>
           <div className='AboutBio tagline2'>
-            I have become confident using the following technologies.
+            Here are a few of the technologies I have become confident in using:
           </div>
           <Technologies>
             {stackList.map((stack, index) => (

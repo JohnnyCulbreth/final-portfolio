@@ -11,7 +11,8 @@ import {
   ScrollLink,
 } from './HeroElements';
 import TempPortrait3 from '../../images/643tp.png';
-import ScrollImg from '../../images/scroll-down.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,9 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm Johnny</h1>
+            <h1>
+              Hi, I'm <span>Johnny</span>
+            </h1>
             <h5>
               I'm a Full-Stack Developer & Tech Enthusiast from Austin, Texas
             </h5>
@@ -46,8 +49,11 @@ function Hero() {
         </HeroWrapper>
         <ScrollDown to='projects'>
           <ScrollLink>
-            Scroll down
-            <img src={ScrollImg} alt='scroll-down' />
+            Scroll down{' '}
+            <FontAwesomeIcon
+              icon={faAnglesDown}
+              style={{ marginLeft: '10px', fontSize: '1.5rem' }}
+            />
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>
