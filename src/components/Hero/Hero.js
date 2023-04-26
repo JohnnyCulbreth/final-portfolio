@@ -10,7 +10,7 @@ import {
   ScrollDown,
   ScrollLink,
 } from './HeroElements';
-import TempPortrait3 from '../../images/643tp.png';
+import TempPortrait3 from '../../images/643tt.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 

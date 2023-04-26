@@ -8,7 +8,7 @@ import {
   TechName,
   ContactWrapper,
 } from './AboutElements';
-import TempPortrait2 from '../../images/temportrait.png';
+import TempPortrait2 from '../../images/643tthead.png';
 
 function About() {
   return (
