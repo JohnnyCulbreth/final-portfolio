@@ -27,7 +27,7 @@ function Footer() {
         <span>
           Visit this repo on{' '}
           <a
-            href='https://github.com/JohnnyCulbreth'
+            href='https://github.com/JohnnyCulbreth/final-portfolio'
             target='_blank'
             rel='noopener noreferrer'
           >

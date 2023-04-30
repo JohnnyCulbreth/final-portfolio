@@ -17,7 +17,7 @@ export const ProjectList = [
     img: PortPulse,
     title: 'Portfolio Pulse',
     description:
-      'A streamlined web app for managing, tracking, and analyzing stock portfolios, providing essential financial insights to bolster informed investments.',
+      'A streamlined web app for managing, tracking, and analyzing stock portfolios, providing essential financial insights to bolster informed investments',
     tech_stack: 'MERN: MongoDB, Express, Node, React',
     github_url: 'https://github.com/JohnnyCulbreth/Portfolio-Pulse',
     demo_url: 'https://portfolio-pulse.herokuapp.com/',
@@ -26,9 +26,9 @@ export const ProjectList = [
     img: MWSearch,
     title: 'MW Search',
     description:
-      'A user-friendly static website for MW Search, a Behavioral Health Executive Search Firm',
-    tech_stack: 'Javascript, Bootstrap, HTML, CSS',
-    github_url: 'https://github.com/JohnnyCulbreth/MWSearch',
+      'A user-friendly website uning the AstroJS framework for MW Search, a Behavioral Health Executive Search Firm',
+    tech_stack: 'AstroJS, Bootstrap, HTML, CSS',
+    github_url: 'https://github.com/JohnnyCulbreth/astro-js-mwsearch',
     demo_url: 'https://behavioralhealthsearch.com/',
   },
   {
