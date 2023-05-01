@@ -9,6 +9,7 @@ import Bootstrap from '../images/bootstrap.svg';
 import Git from '../images/git.svg';
 import Node from '../images/node.png';
 import Astro from '../images/astro.png';
+import Dalle from '../images/dalle.png';
 
 // --------------------------------------- Projects
 
@@ -39,6 +40,15 @@ export const ProjectList = [
     tech_stack: 'AstroJS, Bootstrap, HTML, CSS',
     github_url: 'https://github.com/JohnnyCulbreth/astro-js-integro',
     demo_url: 'https://integrohealth.org/',
+  },
+  {
+    img: Dalle,
+    title: 'DALL-E AI Image Generator via OpenAI',
+    description:
+      'This project is a web application that allows users to generate images from textual descriptions using OpenAIs DALL-E model',
+    tech_stack: 'Node, Express, JavaScript, OpenAI API',
+    github_url: 'https://github.com/JohnnyCulbreth/open-ai-dalle-gen',
+    demo_url: 'https://github.com/JohnnyCulbreth/open-ai-dalle-gen',
   },
 ];
 
