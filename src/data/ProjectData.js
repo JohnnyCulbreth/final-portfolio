@@ -10,6 +10,7 @@ import Git from '../images/git.svg';
 import Node from '../images/node.png';
 import Astro from '../images/astro.png';
 import Dalle from '../images/dalle.png';
+import ChatGPT from '../images/chatgpt1.png';
 
 // --------------------------------------- Projects
 
@@ -40,6 +41,15 @@ export const ProjectList = [
     tech_stack: 'AstroJS, Bootstrap, HTML, CSS',
     github_url: 'https://github.com/JohnnyCulbreth/astro-js-integro',
     demo_url: 'https://integrohealth.org/',
+  },
+  {
+    img: ChatGPT,
+    title: 'My Personal ChatGPT via OpenAI',
+    description:
+      'A versatile chatbot using OpenAIs GPT, offering a customizable interface and seamless integration for natural conversations',
+    tech_stack: 'Node, Express, JavaScript, OpenAI API',
+    github_url: 'https://github.com/JohnnyCulbreth/open-ai-chatgpt-clone',
+    demo_url: 'https://github.com/JohnnyCulbreth/open-ai-chatgpt-clone',
   },
   {
     img: Dalle,
