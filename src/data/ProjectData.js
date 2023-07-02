@@ -11,10 +11,20 @@ import Node from '../images/node.png';
 import Astro from '../images/astro.png';
 import Dalle from '../images/dalle.png';
 import ChatGPT from '../images/chatgpt1.png';
+import RivalTomatoes from '../images/rival-tomatoes3.png';
 
 // --------------------------------------- Projects
 
 export const ProjectList = [
+  {
+    img: RivalTomatoes,
+    title: 'Rival Tomatoes',
+    description:
+      'Rival Tomatoes: A web app using React, Express, and Puppeteer to compare the Tomatometer scores of two movies from Rotten Tomatoes',
+    tech_stack: 'Javascript, Puppeteer, Node, React',
+    github_url: 'https://github.com/JohnnyCulbreth/rival-tomatoes',
+    demo_url: 'https://github.com/JohnnyCulbreth/rival-tomatoes',
+  },
   {
     img: PortPulse,
     title: 'Portfolio Pulse',
@@ -50,15 +60,6 @@ export const ProjectList = [
     tech_stack: 'Node, Express, JavaScript, OpenAI API',
     github_url: 'https://github.com/JohnnyCulbreth/open-ai-chatgpt-clone',
     demo_url: 'https://github.com/JohnnyCulbreth/open-ai-chatgpt-clone',
-  },
-  {
-    img: Dalle,
-    title: 'DALL-E AI Image Generator via OpenAI',
-    description:
-      'This project is a web application that allows users to generate images from textual descriptions using OpenAIs DALL-E model',
-    tech_stack: 'Node, Express, JavaScript, OpenAI API',
-    github_url: 'https://github.com/JohnnyCulbreth/open-ai-dalle-gen',
-    demo_url: 'https://github.com/JohnnyCulbreth/open-ai-dalle-gen',
   },
 ];
 
